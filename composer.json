@@ -37,6 +37,7 @@
   },
   "scripts": {
     "sniff": "./vendor/bin/phpcs src/ --standard=PSR2 --report=summary",
+    "fix": "./vendor/bin/phpcbf src/ --standard=PSR2",
     "test": "./vendor/bin/phpunit"
   },
   "extra": {

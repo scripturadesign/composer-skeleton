@@ -11,16 +11,17 @@ A skeleton package for projects based on composer. For now just trying to see if
 
 ## Install
 
-Via Composer
+I intended this to be installed with Composer.  
+To create a project named `package-name` you can run this command:
 
 ``` bash
-$ -
+$ composer create-project scripturadesign/composer-skeleton package-name --stability "dev" --no-interaction
 ```
 
 ## Usage
 
 ``` php
--
+// Not any usage for this, left as part of the skeleton
 ```
 
 ## Change log
@@ -31,6 +32,20 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ``` bash
 $ composer test
+```
+
+## Code Style
+
+Easily check the code style against [PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) by running:
+
+``` bash
+$ composer sniff
+```
+
+And automatically fix them with this:
+
+``` bash
+$ composer fix
 ```
 
 ## Contributing
